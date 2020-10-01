@@ -13,8 +13,11 @@ public class RPG_Game {
         Medic doctor = new Medic(230, 10, 15);
         Magic magic = new Magic(270, 20);
         Medic youngMedic = new Medic(290, 20, 5);
-        Tank tank = new Tank(500;);
-        Hero[] heroes = {warrior, hunter, doctor, magic, youngMedic};
+        Tank tank = new Tank(500, 12, 5);
+        Hacker hacker = new Hacker(100, 10);
+        Voron voron = new Voron(100,12, 50);
+        BosHelper bossHelper = new BosHelper(200, 10, 5);
+        Hero[] heroes = {warrior, hunter, doctor, magic, youngMedic, tank, hacker, voron, bossHelper};
 
 
         printStatistics(boss, heroes);

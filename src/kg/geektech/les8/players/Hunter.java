@@ -2,6 +2,8 @@ package kg.geektech.les8.players;
 
 import java.util.Random;
 
+//Hunter должен получать от босса урон, и потом наносить ему свой урон + часть урона полученного от босса
+
 public class Hunter extends Hero{
 
     public Hunter(int health, int damage) {

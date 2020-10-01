@@ -1,6 +1,7 @@
 package kg.geektech.les8.players;
 
 import java.util.Random;
+// Magic должен увеличивать атаку каждого героя после каждого раунда на n-ное количество
 
 public class Magic extends Hero {
 
@@ -16,7 +17,8 @@ public class Magic extends Hero {
             {
                 heroes[i].setHealth(heroes[i].getHealth() + boostHealth);
 
-            } System.out.println("magic boosted for " + boostHealth);
+            }
+            System.out.println("magic boosted for " + boostHealth);
         }
     }
 }

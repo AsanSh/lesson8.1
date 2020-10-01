@@ -1,5 +1,7 @@
 package kg.geektech.les8.players;
 
+//Добавить еще игрока, Tank, который имеет увеличенную жизнь но слабый удар. Может принимать на себя 1/5 часть урона исходящего от босса по другим игрокам.!!!
+
 public class Tank extends Hero {
     private int healPoints;
 
